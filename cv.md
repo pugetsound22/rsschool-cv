@@ -1,5 +1,5 @@
 # Nikita Solovianov
-* tvamponfire@gmail.com
+* [tvamponfire@gmail.com](mailto:tvamponfire@gmail.com)
 
 * [Telegram](https://t.me/pugetsound) 
 
