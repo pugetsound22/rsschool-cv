@@ -28,5 +28,6 @@ function solution(str){
 Finished couple crash courses to get ready for a major challenge.
 Currently on [RS School](https://rs.school/) JS/FRONT-END course.
 
-###English 
+### English 
+
 B1 Cambridge(PET) qualification. Keep learning.
