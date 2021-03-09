@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1686688f05.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <title>Nikita Solovianov</title>
+</head>
+<body>
+  <main>
+    <div class="wrapper">
+      <header class='main-header'>
+        <div class="image">
+          <img src="img/photo.jpg" alt="my_photo" class="photo">
+        </div>
+        <div class="info">
+          <h1 class="name">Nikita Solovianov</h1>
+          <p class="frontend">Junior frontend developer</p>
+          <nav>
+            <ul class="contact_me">
+              <li><a href="https://t.me/pugetsound" class="social-link"><i class="fab fa-telegram fa-2x"></i></a></li>
+              <li><a href="mailto:tvamponfire@gmail.com" class="social-link"><i class="fas fa-envelope fa-2x"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section class="about">
+        <h2 class="about__header">Junior frontend developer</h2>
+        <p class="about__me">Entry-level frontend developer. Driven and self-motivated though. Quickly learn and master new technologies.</p>
+      </section>
+      <section class="skills">
+        <h2 class="skills__header">Skills</h2>
+        <ul class="skills__list">
+          <li style="color: green;">HTML</li>
+          <li style="color: #f5f158;">CSS</li>
+          <li style="color: #f28b46;">JavaScript</li>
+          <li>[to be filled in]</li>
+        </ul>
+      </section>
+      <section class="code">
+        <h2 class="code__header">Just a nice way to reverse a string</h2>
+        <pre class="prettyprint">
+
+        function solution(str){
+        return str.length > 0 ? solution(str.substring(1)) + str.charAt(0) : '';
+        }
+        </pre>
+      </section>
+      <section class="education">
+        <h2 class="education__header">Education</h2>
+        <p class="education__info">Finished couple crash courses to get ready for a major challenge. Currently on RS School JS/FRONT-END course.</p>
+        <p class="education__info">English: B1 <mark>Cambridge(PET)</mark> qualification. Keep learning.</p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
